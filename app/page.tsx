@@ -1,5 +1,5 @@
-import { BlogPosts } from 'app/components/posts'
-
+import { BlogPosts } from "app/components/posts";
+export const runtime = "edge";
 export default function Page() {
   return (
     <section>
@@ -17,5 +17,5 @@ export default function Page() {
         <BlogPosts />
       </div>
     </section>
-  )
+  );
 }
